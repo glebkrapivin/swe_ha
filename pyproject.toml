@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "swe-ha"
+version = "0.0.0"
+description = "parloa home assignment"
+authors = ["glebkrapivin"]
+
+# makeing everything latest works just fine for HA
+[tool.poetry.dependencies]
+python = "^3.9"
+uvicorn = "*"
+fastapi = "*"
+pydantic = "*"
+pydantic-settings = "*"
+langchain = "*"
+faiss-cpu = "*"
+
+[build-system]
+requires = ["poetry>=1.0"]
+build-backend = "poetry.masonry.api"

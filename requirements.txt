@@ -1,0 +1,7 @@
+uvicorn
+fastapi
+pydantic
+pydantic-settings
+langchain
+faiss-cpu
+
